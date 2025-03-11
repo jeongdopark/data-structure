@@ -24,7 +24,7 @@ class SinglyLinkedList{
             this.head = newNode
             this.tail = newNode
             return
-        }
+        } 
 
         // Linked List에 요소가 있을 경우 this.tail에 newNode 할당 및 this.tail 변경
         this.tail.next = newNode
